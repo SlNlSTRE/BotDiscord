@@ -23,7 +23,7 @@ async def clear(ctx, nombre : int):
     for message in messages:
         print(message)
         await message.delete()
-				
+
 #command kick
 @bot.command()
 async def kick(ctx, user :discord.User, *reason):
@@ -37,4 +37,5 @@ async def kick(ctx, user :discord.User, *reason):
 async def ban(ctx, user :discord.User, *reason):
     print(reason)
 
-bot.run("ODA4NzcxMDAwNTM5OTM4ODI2.YCLYsA.prF7GJVkFlDD6iFEaiyfykt2qds")
+bot.run("TOKEN+")
+
